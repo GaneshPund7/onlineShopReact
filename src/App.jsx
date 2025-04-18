@@ -15,6 +15,7 @@ function App() {
     <Router>
       <div className="container mt-2">
         <Routes>
+          <Route path="/" element={<Navigate to="/order" />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={<Home />} /> 
